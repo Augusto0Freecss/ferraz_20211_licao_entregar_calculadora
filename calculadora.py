@@ -1,12 +1,12 @@
 def potencia (a, b):
   pass
+
 def divisao (a, b):
   pass
+  return a // b
 
 def multiplicacao (a, b):
-  pass
   return a * b
-
 def subtracao (a, b):
   return a - b
 def soma (a, b):
@@ -18,13 +18,13 @@ if operacao == '+':
   resultado = soma(a, b)
 elif operacao == '-':
   resultado = subtracao(a, b)
-
 elif operacao == '*':
-  resultado = a * b
   resultado = multiplicacao(a, b)
 
 elif operacao == '/':
   resultado = a // b
+  resultado = divisao(a, b)
+
 else:
   resultado = a ** b
 print (resultado)
